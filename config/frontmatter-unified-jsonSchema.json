@@ -3,7 +3,9 @@
   "type": "object",
   "title": "Doks Page Frontmatter (Unified)",
   "description": "Unified frontmatter schema for all Doks content types",
-  "required": ["title"],
+  "required": [
+    "title"
+  ],
   "properties": {
     "title": {
       "type": "string",
@@ -56,7 +58,13 @@
           "type": "string",
           "title": "Content Type",
           "description": "Hugo content type (affects layout)",
-          "enum": ["", "docs", "blog", "legal", "about"]
+          "enum": [
+            "",
+            "docs",
+            "blog",
+            "legal",
+            "about"
+          ]
         },
         "lead": {
           "type": "string",
@@ -222,7 +230,12 @@
           "description": "Which formats to generate",
           "items": {
             "type": "string",
-            "enum": ["html", "json", "rss", "amp"]
+            "enum": [
+              "html",
+              "json",
+              "rss",
+              "amp"
+            ]
           },
           "uniqueItems": true
         },
@@ -258,6 +271,3 @@
     }
   }
 }
-
-
-
