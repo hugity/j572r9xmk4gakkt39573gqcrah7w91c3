@@ -3,7 +3,9 @@
   "type": "object",
   "title": "Doks Page Frontmatter",
   "description": "Frontmatter schema for Doks markdown pages",
-  "required": ["title"],
+  "required": [
+    "title"
+  ],
   "properties": {
     "title": {
       "type": "string",
@@ -62,8 +64,19 @@
       "type": "string",
       "title": "Content Type",
       "description": "Hugo content type (affects which layout template is used)",
-      "enum": ["", "docs", "blog", "legal", "about"],
-      "examples": ["docs", "blog", "legal", "about"]
+      "enum": [
+        "",
+        "docs",
+        "blog",
+        "legal",
+        "about"
+      ],
+      "examples": [
+        "docs",
+        "blog",
+        "legal",
+        "about"
+      ]
     },
     "categories": {
       "type": "array",
@@ -184,7 +197,11 @@
       "type": "string",
       "title": "Custom Layout",
       "description": "Specify a custom layout template for this page",
-      "examples": ["single", "list", "home"]
+      "examples": [
+        "single",
+        "list",
+        "home"
+      ]
     },
     "outputs": {
       "type": "array",
@@ -192,7 +209,12 @@
       "description": "Which output formats to generate for this page",
       "items": {
         "type": "string",
-        "enum": ["html", "json", "rss", "amp"]
+        "enum": [
+          "html",
+          "json",
+          "rss",
+          "amp"
+        ]
       },
       "uniqueItems": true
     },
@@ -231,6 +253,3 @@
     }
   }
 }
-
-
-
