@@ -335,7 +335,12 @@
       "sources": [
         "content/privacy.md"
       ],
-      "examples": ["docs", "blog", "legal", "about"],
+      "examples": [
+        "docs",
+        "blog",
+        "legal",
+        "about"
+      ],
       "notes": "Determines which layout template Hugo uses"
     },
     "images": {
@@ -366,7 +371,11 @@
         "Layout template selection"
       ],
       "sources": [],
-      "examples": ["single", "list", "home"],
+      "examples": [
+        "single",
+        "list",
+        "home"
+      ],
       "notes": "Custom layout template override"
     },
     "outputs": {
@@ -376,7 +385,13 @@
         "Output format generation"
       ],
       "sources": [],
-      "examples": [["html", "json", "rss"]],
+      "examples": [
+        [
+          "html",
+          "json",
+          "rss"
+        ]
+      ],
       "notes": "Which output formats to generate"
     },
     "cascade": {
@@ -401,7 +416,9 @@
   "themeSpecificBehavior": {
     "toc": {
       "condition": "Only displayed in sections defined in site.Params.doks.sectionNav",
-      "defaultSections": ["docs"]
+      "defaultSections": [
+        "docs"
+      ]
     },
     "lastmod": {
       "condition": "Only displayed if site.Params.doks.lastMod is true"
@@ -448,6 +465,3 @@
     "date": "2024-11-06"
   }
 }
-
-
-
