@@ -3,7 +3,9 @@
   "type": "object",
   "title": "Doks Frontmatter",
   "description": "Simple frontmatter editor for Doks pages",
-  "required": ["title"],
+  "required": [
+    "title"
+  ],
   "properties": {
     "title": {
       "type": "string",
@@ -71,6 +73,3 @@
     }
   }
 }
-
-
-
